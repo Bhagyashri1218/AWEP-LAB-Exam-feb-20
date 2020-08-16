@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script src="2.js"></script>
+    <style>
+        body {
+            margin: 10vh;
+        }
+
+        button {
+            height: 30px;
+            width: 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="display: flex; flex-direction: column;">
+        <input type="text" name="username" placeholder="Enter username" id="input1"
+            style="margin-bottom:10px ; width: 50%;" required>
+        <input type="password" name="pwd" placeholder="Enter password" id="input2"
+            style="margin-bottom:10px ;width: 50%;" required>
+        <input type="mail" name="mail" placeholder="Enter mail-id" id="input3" style="margin-bottom:10px ; width: 50%;"
+            required>
+    </div>
+    <div>
+        <button onclick="submit()">Submit</button>
+    </div>
+    <div id="infoBox">
+        <div id="refid" style="visibility: hidden;">
+            <div>abc</div>
+        </div>
+
+        <div id="refid1" style="visibility: hidden;">
+            <div>abc</div>
+        </div>
+
+        <div id="refid2" style="visibility: hidden;">
+            <div>abc</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
